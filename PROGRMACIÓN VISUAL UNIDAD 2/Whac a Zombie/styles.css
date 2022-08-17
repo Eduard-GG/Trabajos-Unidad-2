@@ -1,0 +1,23 @@
+body{
+    background-image: url('imagenes/fin.jpg');
+    background-size: 1920px 1080px;
+}
+.tablero{
+    height: 50vh;
+    margin: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.topo{
+    background-image: url('imagenes/zombie.gif');
+    background-size: 200px 200px
+    
+
+}

@@ -1,0 +1,38 @@
+body{
+    background-image: url(imagenes/background.png);
+}
+.contenedor{
+    width: 900px;
+    height: 100vh;
+    margin: 2rem auto;
+}
+.contenido{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+    margin: 3rem auto;
+}
+.bloque{
+    height: 20px;
+    width: 100px;
+    background-image: url(Imagenes/brick-green.png);
+    background-size: 100px 20px;
+    position: absolute;
+}
+.jugador{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    background-image: url(imagenes/paddle.png);
+    background-size: 150px 20px;
+}
+.pelota{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url(imagenes/ball.png);
+}
+
+
